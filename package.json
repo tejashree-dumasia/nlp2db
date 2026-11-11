@@ -1,0 +1,27 @@
+{
+  "name": "nlp2db",
+  "version": "1.0.0",
+  "description": "An autonomous AI agent engineered to bridge the gap between non-technical stakeholders and relational data systems. Built using Node.js and LangChain.js, the agent translates conversational English questions into optimized PostgreSQL queries, executes them safely against a live database, and synthesizes the retrieved tabular data into clear, natural language summaries.",
+  "homepage": "https://github.com/tejashree-dumasia/nlp2db#readme",
+  "bugs": {
+    "url": "https://github.com/tejashree-dumasia/nlp2db/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejashree-dumasia/nlp2db.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.2.36",
+    "@langchain/google-genai": "^0.0.26",
+    "dotenv": "^16.6.1",
+    "langchain": "^0.2.19",
+    "pg": "^8.11.3"
+  }
+}
